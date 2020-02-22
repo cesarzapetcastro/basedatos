@@ -45,7 +45,7 @@
             this.label3.Location = new System.Drawing.Point(1132, 381);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(172, 40);
+            this.label3.Size = new System.Drawing.Size(166, 40);
             this.label3.TabIndex = 5;
             this.label3.Text = "Contraseña:";
             // 
@@ -66,7 +66,7 @@
             this.label2.Location = new System.Drawing.Point(1081, 212);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(266, 40);
+            this.label2.Size = new System.Drawing.Size(257, 40);
             this.label2.TabIndex = 3;
             this.label2.Text = "Nombre de usuario:";
             // 

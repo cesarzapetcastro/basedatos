@@ -37,3 +37,42 @@ C:\Users\MicroSistemas\Documents\Visual Studio 2015\Projects\proyecto1\proyecto1
 C:\Users\MicroSistemas\Documents\Visual Studio 2015\Projects\proyecto1\proyecto1\obj\Debug\proyecto1.verfacturas.resources
 C:\Users\MicroSistemas\Documents\Visual Studio 2015\Projects\proyecto1\proyecto1\obj\Debug\proyecto1.coneccion.resources
 C:\Users\MicroSistemas\Documents\Visual Studio 2015\Projects\proyecto1\proyecto1\obj\Debug\proyecto1.canbiarservidor.resources
+C:\Users\MicroSistemas\Documents\basedatos\proyecto1\proyecto1\bin\Debug\proyecto1.exe.config
+C:\Users\MicroSistemas\Documents\basedatos\proyecto1\proyecto1\obj\Debug\proyecto1.exe
+C:\Users\MicroSistemas\Documents\basedatos\proyecto1\proyecto1\obj\Debug\proyecto1.pdb
+C:\Users\MicroSistemas\Documents\basedatos\proyecto1\proyecto1\bin\Debug\proyecto1.exe
+C:\Users\MicroSistemas\Documents\basedatos\proyecto1\proyecto1\bin\Debug\proyecto1.pdb
+C:\Users\MicroSistemas\Documents\basedatos\proyecto1\proyecto1\bin\Debug\MySql.Data.dll
+C:\Users\MicroSistemas\Documents\basedatos\proyecto1\proyecto1\bin\Debug\MySql.Data.xml
+C:\Users\MicroSistemas\Documents\basedatos\proyecto1\proyecto1\obj\Debug\proyecto1.csprojResolveAssemblyReference.cache
+C:\Users\MicroSistemas\Documents\basedatos\proyecto1\proyecto1\obj\Debug\proyecto1.agregarclientesinfacturA.resources
+C:\Users\MicroSistemas\Documents\basedatos\proyecto1\proyecto1\obj\Debug\proyecto1.agregarpersona.resources
+C:\Users\MicroSistemas\Documents\basedatos\proyecto1\proyecto1\obj\Debug\proyecto1.anuladologin.resources
+C:\Users\MicroSistemas\Documents\basedatos\proyecto1\proyecto1\obj\Debug\proyecto1.anular.resources
+C:\Users\MicroSistemas\Documents\basedatos\proyecto1\proyecto1\obj\Debug\proyecto1.buscarclientes.resources
+C:\Users\MicroSistemas\Documents\basedatos\proyecto1\proyecto1\obj\Debug\proyecto1.buscardescripcion.resources
+C:\Users\MicroSistemas\Documents\basedatos\proyecto1\proyecto1\obj\Debug\proyecto1.buscargrupo.resources
+C:\Users\MicroSistemas\Documents\basedatos\proyecto1\proyecto1\obj\Debug\proyecto1.buscarmarca.resources
+C:\Users\MicroSistemas\Documents\basedatos\proyecto1\proyecto1\obj\Debug\proyecto1.buscarmodelo.resources
+C:\Users\MicroSistemas\Documents\basedatos\proyecto1\proyecto1\obj\Debug\proyecto1.buscarprocutoparaventa.resources
+C:\Users\MicroSistemas\Documents\basedatos\proyecto1\proyecto1\obj\Debug\proyecto1.buscarproducto.resources
+C:\Users\MicroSistemas\Documents\basedatos\proyecto1\proyecto1\obj\Debug\proyecto1.cambiarcontraseña.resources
+C:\Users\MicroSistemas\Documents\basedatos\proyecto1\proyecto1\obj\Debug\proyecto1.canbiarservidor.resources
+C:\Users\MicroSistemas\Documents\basedatos\proyecto1\proyecto1\obj\Debug\proyecto1.clientes.resources
+C:\Users\MicroSistemas\Documents\basedatos\proyecto1\proyecto1\obj\Debug\proyecto1.coneccion.resources
+C:\Users\MicroSistemas\Documents\basedatos\proyecto1\proyecto1\obj\Debug\proyecto1.contraseña.resources
+C:\Users\MicroSistemas\Documents\basedatos\proyecto1\proyecto1\obj\Debug\proyecto1.DespedirUsuario.resources
+C:\Users\MicroSistemas\Documents\basedatos\proyecto1\proyecto1\obj\Debug\proyecto1.Form1.resources
+C:\Users\MicroSistemas\Documents\basedatos\proyecto1\proyecto1\obj\Debug\proyecto1.FormPAdministrador.resources
+C:\Users\MicroSistemas\Documents\basedatos\proyecto1\proyecto1\obj\Debug\proyecto1.FormUsuarioC.resources
+C:\Users\MicroSistemas\Documents\basedatos\proyecto1\proyecto1\obj\Debug\proyecto1.ProductoAgotado.resources
+C:\Users\MicroSistemas\Documents\basedatos\proyecto1\proyecto1\obj\Debug\proyecto1.Properties.Resources.resources
+C:\Users\MicroSistemas\Documents\basedatos\proyecto1\proyecto1\obj\Debug\proyecto1.proveedores.resources
+C:\Users\MicroSistemas\Documents\basedatos\proyecto1\proyecto1\obj\Debug\proyecto1.realizar_pago.resources
+C:\Users\MicroSistemas\Documents\basedatos\proyecto1\proyecto1\obj\Debug\proyecto1.RegistroProductos.resources
+C:\Users\MicroSistemas\Documents\basedatos\proyecto1\proyecto1\obj\Debug\proyecto1.RegistroU.resources
+C:\Users\MicroSistemas\Documents\basedatos\proyecto1\proyecto1\obj\Debug\proyecto1.saldo.resources
+C:\Users\MicroSistemas\Documents\basedatos\proyecto1\proyecto1\obj\Debug\proyecto1.tipofactura.resources
+C:\Users\MicroSistemas\Documents\basedatos\proyecto1\proyecto1\obj\Debug\proyecto1.Venta.resources
+C:\Users\MicroSistemas\Documents\basedatos\proyecto1\proyecto1\obj\Debug\proyecto1.verfacturas.resources
+C:\Users\MicroSistemas\Documents\basedatos\proyecto1\proyecto1\obj\Debug\proyecto1.csproj.GenerateResource.Cache

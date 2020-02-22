@@ -153,7 +153,7 @@
             // 
             // groupBox4
             // 
-            this.groupBox4.BackColor = System.Drawing.Color.Khaki;
+            this.groupBox4.BackColor = System.Drawing.Color.Orange;
             this.groupBox4.Controls.Add(this.pictureBox1);
             this.groupBox4.Controls.Add(this.labelnombre);
             this.groupBox4.Controls.Add(this.label6);
@@ -221,7 +221,7 @@
             // 
             // panel8
             // 
-            this.panel8.BackColor = System.Drawing.Color.Khaki;
+            this.panel8.BackColor = System.Drawing.Color.Orange;
             this.panel8.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel8.BackgroundImage")));
             this.panel8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel8.Location = new System.Drawing.Point(61, 15);
@@ -233,7 +233,7 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.BackColor = System.Drawing.Color.Khaki;
+            this.groupBox2.BackColor = System.Drawing.Color.Orange;
             this.groupBox2.Controls.Add(this.dateTimePicker1);
             this.groupBox2.Controls.Add(this.txtDir);
             this.groupBox2.Controls.Add(this.txtNombre);
@@ -391,6 +391,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1914, 1045);
             this.ControlBox = false;
             this.Controls.Add(this.button2);
