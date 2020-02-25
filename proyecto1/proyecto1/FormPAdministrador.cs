@@ -179,7 +179,10 @@ namespace proyecto1
 
         private void vERCLIENTESToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            buscarclientes form = new buscarclientes();
+            this.Hide();
+            form.ShowDialog();
+            this.Show();
         }
 
         private void tOTALQDIAToolStripMenuItem_Click(object sender, EventArgs e)

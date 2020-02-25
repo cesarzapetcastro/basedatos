@@ -30,20 +30,11 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormPAdministrador));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.vENTASToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.rEALIZARVENTAToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.aNULARFACTURAToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.uSUARIOSToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cREARUSUARIOToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.eLIMINARUSUARIOToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.agregarPersonalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.rECUPERARCONTRASEÑAToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.cAMBIARCONTRASEÑAToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.cLIENTESToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.rEGISTRARCLIENTEToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.vERCLIENTESToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.pROVEEDORESToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.rEGISTRARPROVEEDORESToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pRODUCTOSToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.rEGISTRODEPRODUCTOSToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.bUSCARPRODUCTOToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -53,10 +44,18 @@
             this.dESCRIPCIONToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mODELOToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pRODUCTOSAGOTADOSToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pROVEEDORESToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.rEGISTRARPROVEEDORESToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cLIENTESToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.rEGISTRARCLIENTEToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.vERCLIENTESToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sERVIDORToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.verServidoresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.agregarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cambiarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.vENTASToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.rEALIZARVENTAToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aNULARFACTURAToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -78,41 +77,13 @@
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
-            // vENTASToolStripMenuItem
-            // 
-            this.vENTASToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.rEALIZARVENTAToolStripMenuItem,
-            this.aNULARFACTURAToolStripMenuItem});
-            this.vENTASToolStripMenuItem.Font = new System.Drawing.Font("Arial", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.vENTASToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("vENTASToolStripMenuItem.Image")));
-            this.vENTASToolStripMenuItem.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.vENTASToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.vENTASToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.White;
-            this.vENTASToolStripMenuItem.Name = "vENTASToolStripMenuItem";
-            this.vENTASToolStripMenuItem.Size = new System.Drawing.Size(245, 120);
-            this.vENTASToolStripMenuItem.Text = "VENTAS";
-            // 
-            // rEALIZARVENTAToolStripMenuItem
-            // 
-            this.rEALIZARVENTAToolStripMenuItem.Name = "rEALIZARVENTAToolStripMenuItem";
-            this.rEALIZARVENTAToolStripMenuItem.Size = new System.Drawing.Size(347, 36);
-            this.rEALIZARVENTAToolStripMenuItem.Text = "REALIZAR VENTA";
-            this.rEALIZARVENTAToolStripMenuItem.Click += new System.EventHandler(this.rEALIZARVENTAToolStripMenuItem_Click);
-            // 
-            // aNULARFACTURAToolStripMenuItem
-            // 
-            this.aNULARFACTURAToolStripMenuItem.Name = "aNULARFACTURAToolStripMenuItem";
-            this.aNULARFACTURAToolStripMenuItem.Size = new System.Drawing.Size(347, 36);
-            this.aNULARFACTURAToolStripMenuItem.Text = "ANULAR FACTURA";
-            // 
             // uSUARIOSToolStripMenuItem
             // 
             this.uSUARIOSToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.cREARUSUARIOToolStripMenuItem,
             this.eLIMINARUSUARIOToolStripMenuItem,
             this.agregarPersonalToolStripMenuItem,
-            this.rECUPERARCONTRASEÑAToolStripMenuItem,
-            this.cAMBIARCONTRASEÑAToolStripMenuItem});
+            this.rECUPERARCONTRASEÑAToolStripMenuItem});
             this.uSUARIOSToolStripMenuItem.Font = new System.Drawing.Font("Arial", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.uSUARIOSToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("uSUARIOSToolStripMenuItem.Image")));
             this.uSUARIOSToolStripMenuItem.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -150,58 +121,6 @@
             this.rECUPERARCONTRASEÑAToolStripMenuItem.Size = new System.Drawing.Size(474, 36);
             this.rECUPERARCONTRASEÑAToolStripMenuItem.Text = "RECUPERAR CONTRASEÑA";
             this.rECUPERARCONTRASEÑAToolStripMenuItem.Click += new System.EventHandler(this.rECUPERARCONTRASEÑAToolStripMenuItem_Click);
-            // 
-            // cAMBIARCONTRASEÑAToolStripMenuItem
-            // 
-            this.cAMBIARCONTRASEÑAToolStripMenuItem.Name = "cAMBIARCONTRASEÑAToolStripMenuItem";
-            this.cAMBIARCONTRASEÑAToolStripMenuItem.Size = new System.Drawing.Size(474, 36);
-            this.cAMBIARCONTRASEÑAToolStripMenuItem.Text = "CAMBIAR CONTRASEÑA";
-            // 
-            // cLIENTESToolStripMenuItem
-            // 
-            this.cLIENTESToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.rEGISTRARCLIENTEToolStripMenuItem,
-            this.vERCLIENTESToolStripMenuItem});
-            this.cLIENTESToolStripMenuItem.Font = new System.Drawing.Font("Arial", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cLIENTESToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("cLIENTESToolStripMenuItem.Image")));
-            this.cLIENTESToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.cLIENTESToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.White;
-            this.cLIENTESToolStripMenuItem.Name = "cLIENTESToolStripMenuItem";
-            this.cLIENTESToolStripMenuItem.Size = new System.Drawing.Size(290, 120);
-            this.cLIENTESToolStripMenuItem.Text = "CLIENTES";
-            // 
-            // rEGISTRARCLIENTEToolStripMenuItem
-            // 
-            this.rEGISTRARCLIENTEToolStripMenuItem.Name = "rEGISTRARCLIENTEToolStripMenuItem";
-            this.rEGISTRARCLIENTEToolStripMenuItem.Size = new System.Drawing.Size(385, 36);
-            this.rEGISTRARCLIENTEToolStripMenuItem.Text = "REGISTRAR CLIENTE";
-            this.rEGISTRARCLIENTEToolStripMenuItem.Click += new System.EventHandler(this.rEGISTRARCLIENTEToolStripMenuItem_Click);
-            // 
-            // vERCLIENTESToolStripMenuItem
-            // 
-            this.vERCLIENTESToolStripMenuItem.Name = "vERCLIENTESToolStripMenuItem";
-            this.vERCLIENTESToolStripMenuItem.Size = new System.Drawing.Size(385, 36);
-            this.vERCLIENTESToolStripMenuItem.Text = "VER CLIENTES";
-            this.vERCLIENTESToolStripMenuItem.Click += new System.EventHandler(this.vERCLIENTESToolStripMenuItem_Click);
-            // 
-            // pROVEEDORESToolStripMenuItem
-            // 
-            this.pROVEEDORESToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.rEGISTRARPROVEEDORESToolStripMenuItem});
-            this.pROVEEDORESToolStripMenuItem.Font = new System.Drawing.Font("Arial", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pROVEEDORESToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("pROVEEDORESToolStripMenuItem.Image")));
-            this.pROVEEDORESToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.pROVEEDORESToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.White;
-            this.pROVEEDORESToolStripMenuItem.Name = "pROVEEDORESToolStripMenuItem";
-            this.pROVEEDORESToolStripMenuItem.Size = new System.Drawing.Size(353, 120);
-            this.pROVEEDORESToolStripMenuItem.Text = "PROVEEDORES";
-            // 
-            // rEGISTRARPROVEEDORESToolStripMenuItem
-            // 
-            this.rEGISTRARPROVEEDORESToolStripMenuItem.Name = "rEGISTRARPROVEEDORESToolStripMenuItem";
-            this.rEGISTRARPROVEEDORESToolStripMenuItem.Size = new System.Drawing.Size(485, 36);
-            this.rEGISTRARPROVEEDORESToolStripMenuItem.Text = "REGISTRAR PROVEEDORES";
-            this.rEGISTRARPROVEEDORESToolStripMenuItem.Click += new System.EventHandler(this.rEGISTRARPROVEEDORESToolStripMenuItem_Click);
             // 
             // pRODUCTOSToolStripMenuItem
             // 
@@ -279,6 +198,52 @@
             this.pRODUCTOSAGOTADOSToolStripMenuItem.Text = "PRODUCTOS AGOTADOS";
             this.pRODUCTOSAGOTADOSToolStripMenuItem.Click += new System.EventHandler(this.pRODUCTOSAGOTADOSToolStripMenuItem_Click);
             // 
+            // pROVEEDORESToolStripMenuItem
+            // 
+            this.pROVEEDORESToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.rEGISTRARPROVEEDORESToolStripMenuItem});
+            this.pROVEEDORESToolStripMenuItem.Font = new System.Drawing.Font("Arial", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pROVEEDORESToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("pROVEEDORESToolStripMenuItem.Image")));
+            this.pROVEEDORESToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.pROVEEDORESToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.White;
+            this.pROVEEDORESToolStripMenuItem.Name = "pROVEEDORESToolStripMenuItem";
+            this.pROVEEDORESToolStripMenuItem.Size = new System.Drawing.Size(353, 120);
+            this.pROVEEDORESToolStripMenuItem.Text = "PROVEEDORES";
+            // 
+            // rEGISTRARPROVEEDORESToolStripMenuItem
+            // 
+            this.rEGISTRARPROVEEDORESToolStripMenuItem.Name = "rEGISTRARPROVEEDORESToolStripMenuItem";
+            this.rEGISTRARPROVEEDORESToolStripMenuItem.Size = new System.Drawing.Size(485, 36);
+            this.rEGISTRARPROVEEDORESToolStripMenuItem.Text = "REGISTRAR PROVEEDORES";
+            this.rEGISTRARPROVEEDORESToolStripMenuItem.Click += new System.EventHandler(this.rEGISTRARPROVEEDORESToolStripMenuItem_Click);
+            // 
+            // cLIENTESToolStripMenuItem
+            // 
+            this.cLIENTESToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.rEGISTRARCLIENTEToolStripMenuItem,
+            this.vERCLIENTESToolStripMenuItem});
+            this.cLIENTESToolStripMenuItem.Font = new System.Drawing.Font("Arial", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cLIENTESToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("cLIENTESToolStripMenuItem.Image")));
+            this.cLIENTESToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.cLIENTESToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.White;
+            this.cLIENTESToolStripMenuItem.Name = "cLIENTESToolStripMenuItem";
+            this.cLIENTESToolStripMenuItem.Size = new System.Drawing.Size(290, 120);
+            this.cLIENTESToolStripMenuItem.Text = "CLIENTES";
+            // 
+            // rEGISTRARCLIENTEToolStripMenuItem
+            // 
+            this.rEGISTRARCLIENTEToolStripMenuItem.Name = "rEGISTRARCLIENTEToolStripMenuItem";
+            this.rEGISTRARCLIENTEToolStripMenuItem.Size = new System.Drawing.Size(385, 36);
+            this.rEGISTRARCLIENTEToolStripMenuItem.Text = "REGISTRAR CLIENTE";
+            this.rEGISTRARCLIENTEToolStripMenuItem.Click += new System.EventHandler(this.rEGISTRARCLIENTEToolStripMenuItem_Click);
+            // 
+            // vERCLIENTESToolStripMenuItem
+            // 
+            this.vERCLIENTESToolStripMenuItem.Name = "vERCLIENTESToolStripMenuItem";
+            this.vERCLIENTESToolStripMenuItem.Size = new System.Drawing.Size(385, 36);
+            this.vERCLIENTESToolStripMenuItem.Text = "VER CLIENTES";
+            this.vERCLIENTESToolStripMenuItem.Click += new System.EventHandler(this.vERCLIENTESToolStripMenuItem_Click);
+            // 
             // sERVIDORToolStripMenuItem
             // 
             this.sERVIDORToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -312,6 +277,33 @@
             this.cambiarToolStripMenuItem.Size = new System.Drawing.Size(267, 36);
             this.cambiarToolStripMenuItem.Text = "cambiar";
             this.cambiarToolStripMenuItem.Click += new System.EventHandler(this.cambiarToolStripMenuItem_Click);
+            // 
+            // vENTASToolStripMenuItem
+            // 
+            this.vENTASToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.rEALIZARVENTAToolStripMenuItem,
+            this.aNULARFACTURAToolStripMenuItem});
+            this.vENTASToolStripMenuItem.Font = new System.Drawing.Font("Arial", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.vENTASToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("vENTASToolStripMenuItem.Image")));
+            this.vENTASToolStripMenuItem.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.vENTASToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.vENTASToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.White;
+            this.vENTASToolStripMenuItem.Name = "vENTASToolStripMenuItem";
+            this.vENTASToolStripMenuItem.Size = new System.Drawing.Size(245, 120);
+            this.vENTASToolStripMenuItem.Text = "VENTAS";
+            // 
+            // rEALIZARVENTAToolStripMenuItem
+            // 
+            this.rEALIZARVENTAToolStripMenuItem.Name = "rEALIZARVENTAToolStripMenuItem";
+            this.rEALIZARVENTAToolStripMenuItem.Size = new System.Drawing.Size(347, 36);
+            this.rEALIZARVENTAToolStripMenuItem.Text = "REALIZAR VENTA";
+            this.rEALIZARVENTAToolStripMenuItem.Click += new System.EventHandler(this.rEALIZARVENTAToolStripMenuItem_Click);
+            // 
+            // aNULARFACTURAToolStripMenuItem
+            // 
+            this.aNULARFACTURAToolStripMenuItem.Name = "aNULARFACTURAToolStripMenuItem";
+            this.aNULARFACTURAToolStripMenuItem.Size = new System.Drawing.Size(347, 36);
+            this.aNULARFACTURAToolStripMenuItem.Text = "ANULAR FACTURA";
             // 
             // FormPAdministrador
             // 
@@ -359,7 +351,6 @@
         private System.Windows.Forms.ToolStripMenuItem mODELOToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem nOMBREToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem vERCLIENTESToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem cAMBIARCONTRASEÑAToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem sERVIDORToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem verServidoresToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem agregarToolStripMenuItem;

@@ -44,11 +44,12 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(407, 549);
+            this.button1.Font = new System.Drawing.Font("Arial Narrow", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(986, 584);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(134, 45);
             this.button1.TabIndex = 85;
-            this.button1.Text = "button1";
+            this.button1.Text = "Aceptar";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -61,11 +62,12 @@
             this.groupBox1.Controls.Add(this.txtTelefono);
             this.groupBox1.Controls.Add(this.txtapellido);
             this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Location = new System.Drawing.Point(167, 306);
+            this.groupBox1.Font = new System.Drawing.Font("Arial Narrow", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.Location = new System.Drawing.Point(746, 341);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox1.Size = new System.Drawing.Size(543, 224);
+            this.groupBox1.Size = new System.Drawing.Size(574, 224);
             this.groupBox1.TabIndex = 84;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Datos";
@@ -73,62 +75,62 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(88, 50);
+            this.label3.Location = new System.Drawing.Point(43, 52);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(58, 17);
+            this.label3.Size = new System.Drawing.Size(99, 33);
             this.label3.TabIndex = 63;
             this.label3.Text = "Nombre";
             // 
             // txtnombre
             // 
-            this.txtnombre.Location = new System.Drawing.Point(155, 47);
+            this.txtnombre.Location = new System.Drawing.Point(186, 47);
             this.txtnombre.Margin = new System.Windows.Forms.Padding(4);
             this.txtnombre.Name = "txtnombre";
-            this.txtnombre.Size = new System.Drawing.Size(348, 22);
+            this.txtnombre.Size = new System.Drawing.Size(348, 38);
             this.txtnombre.TabIndex = 64;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(81, 133);
+            this.label1.Location = new System.Drawing.Point(43, 133);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(64, 17);
+            this.label1.Size = new System.Drawing.Size(104, 33);
             this.label1.TabIndex = 71;
             this.label1.Text = "Teléfono";
             // 
             // txtTelefono
             // 
-            this.txtTelefono.Location = new System.Drawing.Point(155, 130);
+            this.txtTelefono.Location = new System.Drawing.Point(186, 133);
             this.txtTelefono.Margin = new System.Windows.Forms.Padding(4);
             this.txtTelefono.Name = "txtTelefono";
-            this.txtTelefono.Size = new System.Drawing.Size(197, 22);
+            this.txtTelefono.Size = new System.Drawing.Size(252, 38);
             this.txtTelefono.TabIndex = 72;
             // 
             // txtapellido
             // 
-            this.txtapellido.Location = new System.Drawing.Point(155, 88);
+            this.txtapellido.Location = new System.Drawing.Point(186, 88);
             this.txtapellido.Margin = new System.Windows.Forms.Padding(4);
             this.txtapellido.Name = "txtapellido";
-            this.txtapellido.Size = new System.Drawing.Size(348, 22);
+            this.txtapellido.Size = new System.Drawing.Size(348, 38);
             this.txtapellido.TabIndex = 74;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(90, 88);
+            this.label2.Location = new System.Drawing.Point(43, 91);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(57, 17);
+            this.label2.Size = new System.Drawing.Size(94, 33);
             this.label2.TabIndex = 73;
-            this.label2.Text = "apellido";
+            this.label2.Text = "Apellido";
             // 
             // pictureBox2
             // 
             this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox2.Location = new System.Drawing.Point(344, 13);
+            this.pictureBox2.Location = new System.Drawing.Point(932, 130);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(248, 189);
@@ -141,7 +143,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(945, 656);
+            this.ClientSize = new System.Drawing.Size(1490, 656);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.pictureBox2);
