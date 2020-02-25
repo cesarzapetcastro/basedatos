@@ -40,7 +40,7 @@ namespace proyecto1
 
         private void buscarmarca_Load(object sender, EventArgs e)
         {
-            this.leer_datos("select productos.marca,productos.nombre,grupo,productos.modelo,productos.existencia,productos.precio, productos.descripcion from productos", ref resultados, "productos");
+            this.leer_datos("select productos.marca,productos.nombre,grupo,productos.modelo,productos.existencia,productos.precio_con_iva, productos.descripcion from productos", ref resultados, "productos");
             miflito = ((DataTable)resultados.Tables["productos"]).DefaultView;
             this.dataGridView1.DataSource = miflito;
         }
