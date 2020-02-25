@@ -52,7 +52,13 @@ namespace proyecto1
                     BUSQUEDAFACTURA.nombre = this.dataGridView1.CurrentRow.Cells[1].Value.ToString();
                     BUSQUEDAFACTURA.precio = this.dataGridView1.CurrentRow.Cells[4].Value.ToString();
                     double precioo;
-                    precioo=double.Parse(BUSQUEDAFACTURA.precio);
+                    int cantidad;
+                    cantidad = Convert.ToInt32(this.dataGridView1.CurrentRow.Cells[5].Value.ToString());
+                    if (cantidad <= 10)
+                        {
+                        DialogResult r= MessageBox.Show("Producto Agotado");
+                    }
+                        precioo =double.Parse(BUSQUEDAFACTURA.precio);
                     BUSQUEDAFACTURA.subtotal = BUSQUEDAFACTURA.cantidadvender * precioo;
 
 
@@ -72,7 +78,7 @@ namespace proyecto1
 
         private void buscarprocutoparaventa_Load(object sender, EventArgs e)
         {
-            this.leer_datos("select productos.id_productos,productos.nombre,productos.modelo,productos.marca,productos.precio,productos.descripcion from productos", ref resultados, "productos");
+            this.leer_datos("select productos.id_productos,productos.nombre,productos.modelo,productos.marca,productos.precio,productos.existencia,productos.descripcion from productos", ref resultados, "productos");
             miflito = ((DataTable)resultados.Tables["productos"]).DefaultView;
             this.dataGridView1.DataSource = miflito;
         }
